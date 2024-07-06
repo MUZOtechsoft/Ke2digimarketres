@@ -19790,7 +19790,7 @@ p.disc.banner-para {
 }
 @media only screen and (max-width: 767px) {
   .contoler-company {
-    flex-direction: column;
+    margin-top: 0px;
   }
 }
 @media only screen and (max-width: 767px) {
@@ -19999,9 +19999,7 @@ p.disc.banner-para {
     display: none;
   }
 }
-.rts-about-our-company-h2.eight .title-area::after {
-  content: "04";
-}
+
 
 .about-content-inner-style-six p.disc {
   margin-top: 40px;
@@ -29254,7 +29252,7 @@ p.disc {
   display: flex;
   align-items: center;
   padding: 40px;
-  background-color: var(--color-primary-alta);
+  background-color: #E1EBEE;
 }
 @media only screen and (max-width: 767px) {
   .single-contact-one-inner .content {
@@ -29426,9 +29424,6 @@ p.disc {
     width: 85%;
   }
 }
-.rts-service-areah2-im-3.eight .title-area.service-h2.service::after {
-  content: "01";
-}
 
 .working-process-area2 {
   background: url("../images/working-step/bg-02.jpg");
@@ -29479,7 +29474,7 @@ p.disc {
 }
 
 .rts-working-process-section.eight .title-area::after {
-  content: "02";
+  content: "";
   left: 7%;
   transform: translateX(-50%);
   top: -70%;

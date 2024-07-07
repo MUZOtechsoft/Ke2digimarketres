@@ -18676,7 +18676,7 @@ button.menu.rts-btn.btn-primary-3-menu:hover .menu-light {
 
 .banner-two {
   background-image: url(../images/banner/banner-05.png);
-  height: 850px;
+  height: 650px;
   background-repeat: no-repeat;
   position: relative;
   background-position: center;
@@ -19840,7 +19840,7 @@ p.disc.banner-para {
 }
 @media only screen and (max-width: 767px) {
   .rts-tab-style-one .button-area button {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 .rts-tab-style-one .button-area button:last-child {
@@ -29659,9 +29659,9 @@ p.disc {
 .loader-wrapper {
   --line-width: 5px;
   --curtain-color: #ffffff;
-  --outer-line-color: #dca8a8;
-  --middle-line-color: #ff0000;
-  --inner-line-color: #cf1414;
+  --outer-line-color: #111D5E;
+  --middle-line-color: #5264F3;
+  --inner-line-color: #5264F3;
   position: fixed;
   top: 0;
   left: 0;

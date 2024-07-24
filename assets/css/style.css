@@ -30702,4 +30702,73 @@ p.disc {
 .footer-five .footer-one-single-wized .single-footer-post .post-right .red-more {
   color: var(--color-primary-2);
 }
+
+/* Popups Styles */
+
+.popup {
+    display: none; /* Hide popup initially */
+    position: fixed;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 90%;
+    max-width: 700px;
+}
+
+.popup button#close {
+    position: absolute;
+    top: 10px;
+    right: -300px;
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.popup h2 {
+    margin-top: 0;
+}
+
+.form-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.form-group input {
+    flex: 1;
+    min-width: calc(50% - 10px);
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.select-container {
+    margin-bottom: 10px;
+}
+
+.select-box {
+    width: 100%;
+    padding: 10px;
+}
+
+@media (max-width: 768px) {
+    .form-group input {
+        min-width: 200px;
+    }
+    .popup button#close {
+      position: absolute;
+      top: -5px;
+      right: -175px;
+      background: none;
+      border: none;
+      font-size: 30px;
+      cursor: pointer;
+    }
+}
+
 /*# sourceMappingURL=../maps/style.css.map */

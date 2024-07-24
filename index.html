@@ -33,6 +33,32 @@
 
 <body class="home-blue2 onepage">
 
+    <div class="popup" id="popup" name="popup-form">
+        <button id="close">&times;</button>
+        <h2>Get a free Quote</h2>
+        <form id="popupForm" action="https://script.google.com/macros/s/AKfycbx9XOkUvdb8SJC4pVjWX6wbGcxt80uaX0E8oOsRspCb5p4BU6ujcHZ_4VDF2xeZLsOYWQ/exec" method="post">
+            <div class="form-group">
+                <input type="text" placeholder="Your Name" name="name" required>
+                <input type="tel" placeholder="Phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <input type="text" placeholder="Company Name" name="company" required>
+                <input type="email" placeholder="Email" name="email" required>
+            </div>
+            <div class="select-container">
+                <select name="service" class="select-box" required>
+                    <option value="">Service</option>
+                    <option value="webdevelopment">Web Development</option>
+                    <option value="ecommerce">E-commerce Development</option>
+                    <option value="socialmedia-marketing">Social Media Marketing</option>
+                    <option value="socialmedia-management">Social Media Management</option>
+                </select>
+            </div>
+            <button type="submit" id="close1" class="rts-btn btn-primary">Submit Message</button>
+        </form>
+        <div id="message" style="display: none; margin-top: 10px; color: green; font-weight: bold;">Got an appointment successfully!</div>
+    </div>
+
     <!-- start header area -->
     <header class="header--sticky header-one header-four header-five">
         <div class="header-top header-top-one header-top-four header-top-five">
@@ -900,6 +926,7 @@
     <script src="assets/js/plugins/sal.min.js"></script>
     <script src="assets/js/vendor/bootstrap.min.js"></script>
     <script src="assets/js/plugins/contact.form.js"></script>
+    <script src="assets/js/plugins/popup.js"></script>
     <!-- main Js -->
     <script src="assets/js/main.js"></script>
     <!-- scripts end form hear -->
